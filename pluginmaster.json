@@ -22,7 +22,7 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "IsTestingExclusive": false,
-    "IconUrl": "https://raw.githubusercontent.com/SunnysTTV/VenueMapperXIV/main/icon.png",
+    "IconUrl": "https://raw.githubusercontent.com/SunnysTTV/VenueMapperXIV/main/Resources/icon.png"
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
