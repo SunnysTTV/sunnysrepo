@@ -1,4 +1,4 @@
-# Sunny's Dalamud Plugin Repository
+w# Sunny's Dalamud Plugin Repository
 
 Custom Dalamud plugin repository for all of Sunny's FFXIV plugins.
 
@@ -10,7 +10,7 @@ Custom Dalamud plugin repository for all of Sunny's FFXIV plugins.
 2. Go to: **Experimental** → **Custom Plugin Repositories**
 3. Add this link:
    ```
-   https://raw.githubusercontent.com/SunnysTTV/sunnysrepo/main/
+   https://raw.githubusercontent.com/SunnysTTV/sunnysrepo/main/pluginmaster.json
    ```
 4. Click **+** and **Save**
 5. Open **Available Plugins** in Dalamud Plugin Installer
