@@ -31,6 +31,6 @@
     "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.0.40/VenueMapper.zip",
     "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.0.40/VenueMapper.zip",
     "TestingAssemblyVersion": "0.0.40",
-    "Changelog": "v0.0.40: ETag polling for automatic GitHub config updates. Full venue discovery and owner tools. **Full Changelog**: https://github.com/SunnysTTV/VenueMapperXIV/releases"
+    "Changelog": "## What's Changed:\r\n* GitHub and Plugin preperation.\r\n\r\n**Full Changelog**: https://github.com/SunnysTTV/VenueMapperXIV/releases/tag/v0.4.5"
   }
 ]
