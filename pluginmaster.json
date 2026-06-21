@@ -21,16 +21,16 @@
     "LoadSync": false,
     "CanUnloadAsync": false,
     "LoadPriority": 0,
-    "IsTestingExclusive": true,
+    "IsTestingExclusive": false,
     "IconUrl": "https://raw.githubusercontent.com/SunnysTTV/VenueMapperXIV/main/icon.png",
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.0.40/VenueMapper.zip",
-    "AssemblyVersion": "0.4.5",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.0.40/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.0.40/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.4.5",
-    "Changelog": "## What's Changed:\r\n* GitHub and Plugin preperation.\r\n\r\n**Full Changelog**: https://github.com/SunnysTTV/VenueMapperXIV/releases/tag/v0.4.5"
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.0/VenueMapper.zip",
+    "AssemblyVersion": "0.5.0",
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.0/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.0/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.0",
+    "Changelog": "## What's Changed in v0.5.0:\r\n\r\n Complete rewrite with RESX-based localization (Crowdin-ready)\r\n Easy Setup Screen on first plugin launch\r\n Datacenter & Server cascading dropdown system\r\n Live event tracking with full venue information from Partake API\r\n ETag polling for automatic GitHub config updates (hourly, non-blocking)\r\n Google Form integration with auto-fill for venue submissions\r\n Complete UI polish and refinements\r\n Full EN/DE localization support (ready for FR/JP via Crowdin)\r\n Performance optimizations\r\n Multiple bug fixes and stability improvements\r\n\r\n**Full Changelog**: https://github.com/SunnysTTV/VenueMapperXIV/releases/tag/v0.5.0"
   }
 ]
