@@ -1,4 +1,4 @@
-w# Sunny's Dalamud Plugin Repository
+# Sunny's Dalamud Plugin Repository
 
 Custom Dalamud plugin repository for all of Sunny's FFXIV plugins.
 
