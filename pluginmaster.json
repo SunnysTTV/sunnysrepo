@@ -26,11 +26,11 @@
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.1/VenueMapper.zip",
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.3/VenueMapper.zip",
     "AssemblyVersion": "0.5.1",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.1/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.1/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.5.1",
-    "Changelog": "## What's Changed in v0.5.1\r\n\r\n- Removed placeholder text from Owner Setup input fields\n- Copy JSON button now shows visual COPIED confirmation\n- Restored Discord DM description text above Copy JSON\n- Fixed icon.png path for Dalamud API compatibility\n- Fixed manifest and project file cleanup"
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.3/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.3/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.3",
+    "Changelog": "## What's Changed in v0.5.3\r\n\r\n- Active events from Partake API (activeEvents query)\n- Pulsing NOW badge for currently running events\n- Venue name shown on event cards\n- Events merged across all venues into single list\n- HERE badge now respects ward/plot matching\n- Fixed config cache file lock issue"
   }
 ]
