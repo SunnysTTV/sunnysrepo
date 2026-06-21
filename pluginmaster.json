@@ -26,11 +26,11 @@
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.0/VenueMapper.zip",
-    "AssemblyVersion": "0.5.0",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.0/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.0/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.5.0",
-    "Changelog": "## What's Changed in v0.5.0\r\n\r\nComplete rewrite with RESX-based localization (Crowdin-ready)\r\nEasy Setup Screen on first plugin launch\r\nDatacenter & Server cascading dropdown system\r\nLive event tracking with full venue information from Partake API\r\nETag polling for automatic GitHub config updates (hourly, non-blocking)\r\nGoogle Form integration with auto-fill for venue submissions\r\nComplete UI polish and refinements\r\nFull EN/DE localization support (ready for FR/JP via Crowdin)\r\nPerformance optimizations\r\nMultiple bug fixes and stability improvements\r\n\r\nFull Changelog: https://github.com/SunnysTTV/VenueMapperXIV/releases/tag/v0.5.0"
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.1/VenueMapper.zip",
+    "AssemblyVersion": "0.5.1",
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.1/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.1/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.1",
+    "Changelog": "## What's Changed in v0.5.1\r\n\r\n- Removed placeholder text from Owner Setup input fields\n- Copy JSON button now shows visual COPIED confirmation\n- Restored Discord DM description text above Copy JSON\n- Fixed icon.png path for Dalamud API compatibility\n- Fixed manifest and project file cleanup"
   }
 ]
