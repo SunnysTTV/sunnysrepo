@@ -1,7 +1,7 @@
 [
   {
     "Author": "Sunny",
-    "Name": "VenueMapper",
+    "Name": "Venue Mapper",
     "InternalName": "VenueMapper",
     "Description": "A Dalamud plugin for discovering FFXIV venues with 2D/3D interactive markers, live events, and built-in owner tools. Your complete FFXIV venue guide.",
     "ApplicableVersion": "any",
