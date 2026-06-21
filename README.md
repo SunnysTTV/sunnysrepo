@@ -22,14 +22,14 @@ Custom Dalamud plugin repository for all of Sunny's FFXIV plugins.
 
 ## Developer
 
-- **Sunny** ([@sunnysofficial](https://twitch.tv/sunnysofficial))
+- **Sunny** ([@sunnysofficial](https://sunnysofficial.com))
 
 ## Social Links
 
-- 🎮 Twitch: https://twitch.tv/sunnysofficial
-- 💬 Discord: https://discord.gg/agKWEzK5nR
-- 🎵 TuneTribe: https://tunetribe.space
-- ☕ Support: https://ko-fi.com/sunnysofficial
+- Twitch: https://twitch.tv/sunnysofficial
+- Discord: https://discord.gg/agKWEzK5nR
+- Support: https://ko-fi.com/sunnysofficial
+- Website: https://sunnysofficial.com
 
 ---
 
