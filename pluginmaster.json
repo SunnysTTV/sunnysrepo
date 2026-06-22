@@ -26,11 +26,11 @@
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.3/VenueMapper.zip",
-    "AssemblyVersion": "0.5.3",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.3/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.3/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.5.3",
-    "Changelog": "## What's Changed in v0.5.3\r\n\r\n- Active events from Partake API (activeEvents query)\n- Pulsing NOW badge for currently running events\n- Venue name shown on event cards\n- Events merged across all venues into single list\n- HERE badge now respects ward/plot matching\n- Fixed config cache file lock issue"
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.4/VenueMapper.zip",
+    "AssemblyVersion": "0.5.4",
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.4/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.4/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.4",
+    "Changelog": "## What's Changed in v0.5.4\r\n\r\n- Multi-select datacenter filter in directory\n- Fixed event leak on plugin reload\n- Fixed encoding issues in zoom badge\n- All service marker colors are now fixed per type\n- Events limited to 1 per venue\n- Dead code cleanup"
   }
 ]
