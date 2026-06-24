@@ -26,11 +26,11 @@
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5/VenueMapper.zip",
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5.1/VenueMapper.zip",
     "AssemblyVersion": "0.5.5",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.5.5",
-    "Changelog": "## What's Changed in v0.5.5\r\n\r\n- XIVVenues schedule integration (OPEN NOW / Opens in Xh)\n- Partake event schedule as fallback in directory\n- Stage service marker\n- RESX-based language selector\n- Framework error handling with throttled logging\n- JSON export fully escaped\n- URL validation on all external links\n- Thread-safe config and API collections\n- Dynamic User-Agent version\n- Reduced Partake API fetch to 2 events"
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5.1/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5.1/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.5.1",
+    "Changelog": "## What's Changed in v0.5.5.1\r\n\r\n- Fixed schedule time calculation (UTC timezone)\n- Fixed changelog scroll style stack\n- Partake fallback now triggers fetch from directory"
   }
 ]
