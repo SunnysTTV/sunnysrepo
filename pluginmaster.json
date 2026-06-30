@@ -26,11 +26,11 @@
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5.2/VenueMapper.zip",
-    "AssemblyVersion": "0.5.5.2",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5.2/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.5.2/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.5.5.2",
-    "Changelog": "## What's Changed in v0.5.5.2\r\n\r\n- Fixed schedule time calculation (UTC timezone)\n- Fixed changelog scroll style stack\n- Partake fallback now triggers fetch from directory"
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.6/VenueMapper.zip",
+    "AssemblyVersion": "0.5.6",
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.6/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.6/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.6",
+    "Changelog": "## What's Changed in v0.5.6\r\n\r\n**Owner Setup**\r\n- Added house size field (L / M / S)\r\n- Added 'Detect from Current Position' button — auto-fills DC, server, district, ward, plot and house size\r\n- Improved: House size auto-detected from district and plot number\r\n- Improved: Owner Setup fully translated to German\r\n- Fixed: Housing district now detected correctly inside and outside houses\r\n- Changed: Window height increased to fit all fields\r\n\r\n**General**\r\n- Added colored status tags in changelog (ADDED / IMPROVED / CHANGED / FIXED / REMOVED)\r\n- Improved: German translations completed for changelog, directory filter, and About tab\r\n- Changed: Main window minimum size increased\r\n- Changed: Discord button in About tab now labeled 'Support Discord'\r\n- Fixed: 3D markers no longer visible on the character selection screen after logging out"
   }
 ]
