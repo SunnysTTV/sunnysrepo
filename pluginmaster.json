@@ -26,11 +26,11 @@
     "Punchline": "Your complete FFXIV venue guide.",
     "RepoUrl": "https://github.com/SunnysTTV/VenueMapperXIV",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.7/VenueMapper.zip",
-    "AssemblyVersion": "0.5.7",
-    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.7/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.7/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.5.7",
-    "Changelog": "## What's Changed in v0.5.7\r\n\r\n- Improved: Venue detection now uses datacenter + ward/plot matching instead of territory IDs - works reliably in all house types\r\n- Improved: Floor names, service labels and schedule status fully localizable via RESX and Crowdin\r\n- Fixed: HERE badge and venue map correctly match venues across all datacenters\r\n- Fixed: Favorite venues now sorted to top of directory\r\n- Fixed: Schedule status text now shows correct umlauts in German"
+    "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.7.1/VenueMapper.zip",
+    "AssemblyVersion": "0.5.7.1",
+    "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.7.1/VenueMapper.zip",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.5.7.1/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.5.7.1",
+    "Changelog": "## Hotfix v0.5.7.1\r\n\r\n- Fixed: Venue map no longer shows when standing in garden or outdoor housing area\r\n- Fixed: Venue map no longer shows in non-housing zones (e.g. Limsa Lominsa)\r\n- Fixed: Empyreum housing district now detected correctly in all house types\r\n- Improved: Housing detection fully rewritten using HousingManager API - no hardcoded territory IDs"
   }
 ]
