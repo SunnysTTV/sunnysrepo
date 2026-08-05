@@ -1,0 +1,43 @@
+name: Update Download Count
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily 06:00 UTC
+  workflow_dispatch:       # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-count:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # pluginmaster.json lives in this repo (sunnysrepo), but the actual releases/downloads
+      # are tracked on the VenueMapperXIV repo - so the source repo for the count is hardcoded
+      # here rather than using ${{ github.repository }} (which would resolve to sunnysrepo).
+      - name: Sum download counts across all releases
+        id: count
+        run: |
+          TOTAL=$(gh api repos/SunnysTTV/VenueMapperXIV/releases --paginate \
+            --jq '[.[].assets[].download_count] | add')
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update pluginmaster.json
+        run: |
+          jq --argjson count "${{ steps.count.outputs.total }}" \
+            'map(if .InternalName == "VenueMapper" then . + {DownloadCount: $count} else . end)' \
+            pluginmaster.json > tmp.json && mv tmp.json pluginmaster.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet pluginmaster.json || (
+            git add pluginmaster.json &&
+            git commit -m "chore: update download count" &&
+            git push
+          )
