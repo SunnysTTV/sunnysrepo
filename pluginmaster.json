@@ -29,9 +29,9 @@
     "DownloadLinkInstall": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.6.0/VenueMapper.zip",
     "AssemblyVersion": "0.6.0",
     "DownloadLinkUpdate": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.6.0/VenueMapper.zip",
-    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.6.0.3/VenueMapper.zip",
-    "TestingAssemblyVersion": "0.6.0.3",
-    "TestingChangelog": "## v0.6.0.3 (Testing)\r\n\r\n- Added: Live preview while adding or editing a venue, only on your PC\r\n- Added: Live preview for festivals, even days before they start\r\n\r\n## v0.6.0.2 (Testing)\r\n\r\n- Improved: Chat links find longer venue names in lower case or written together\r\n- Changed: Testing builds are marked more clearly\r\n\r\n## v0.6.0.1 (Testing)\r\n\r\n- Added: Interface size setting from 50 to 150 percent\r\n- Improved: Smarter chat venue links\r\n- Improved: Less stutter when entering a house",
+    "DownloadLinkTesting": "https://github.com/SunnysTTV/VenueMapperXIV/releases/download/v0.6.0.4/VenueMapper.zip",
+    "TestingAssemblyVersion": "0.6.0.4",
+    "TestingChangelog": "## v0.6.0.4 (Testing)\r\n\r\n- Added: Clickable notifications, for example the update note opens the changelog\r\n- Fixed: Passport no longer flickers in a small window\r\n\r\n## v0.6.0.3 (Testing)\r\n\r\n- Added: Live preview while adding or editing a venue, only on your PC\r\n- Added: Live preview for festivals, even days before they start\r\n\r\n## v0.6.0.2 (Testing)\r\n\r\n- Improved: Chat links find longer venue names in lower case or written together\r\n\r\n## v0.6.0.1 (Testing)\r\n\r\n- Added: Interface size setting from 50 to 150 percent\r\n- Improved: Smarter chat venue links",
     "Changelog": "## v0.6.0\r\n\r\n- Changed: New look for the whole plugin, with every venue in its own colors\r\n- Added: Festivals with several days, houses and a preview\r\n- Added: Venue passport with stamps for every venue you visit\r\n- Added: Map markers, signs and an indoor guide to the right room\r\n- Added: Venue names in chat become links\r\n- Added: Update Notes window and big arrival banners\r\n- Changed: Settings sorted into groups with short explanations"
   }
 ]
